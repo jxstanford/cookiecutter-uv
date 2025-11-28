@@ -5,6 +5,7 @@
     "project_name": "",
     "project_slug": "{{cookiecutter.project_name|lower|replace('-', '_')}}",
     "project_description": "",
+    "layout": ["flat", "src"],
     "include_github_actions": ["y", "n"],
     "publish_to_pypi": ["y", "n"],
     "deptry": ["y", "n"],
@@ -12,6 +13,7 @@
     "codecov": ["y", "n"],
     "dockerfile": ["y", "n"],
     "devcontainer": ["y", "n"],
+    "type_checker": ["mypy", "ty"],
     "open_source_license": [
         "MIT license",
         "BSD license",
